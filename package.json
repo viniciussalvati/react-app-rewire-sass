@@ -1,0 +1,14 @@
+{
+  "name": "react-app-rewire-sass",
+  "version": "0.1.0",
+  "description": "Adds SASS to your react-app-rewired",
+  "main": "index.js",
+  "author": "Vinicius Salvati Melquiades <vinicius.melquiades@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-app-rewired": "^1.3.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
