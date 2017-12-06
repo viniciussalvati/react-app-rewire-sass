@@ -26,7 +26,8 @@ module.exports = (options = { sassOptions: {} }) => (config, env) => {
 		loader: 'sass-loader',
 		options: options.sassOptions
 	};
-	loader.use.push(sassRule);
+
+	(loader.use || loader.loader).push(sassRule);
 
 	config.module.rules.filter(rule => rule.oneOf)[0].oneOf.splice(0, 0, loader);
 
