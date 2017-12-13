@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "Adds SASS to your react-app-rewired",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusmelquiades/react-app-rewire-sass"
+  },
+  "homepage": "https://github.com/viniciusmelquiades/react-app-rewire-sass",
+  "bugs": "https://github.com/viniciusmelquiades/react-app-rewire-sass/issues",
   "author": "Vinicius Salvati Melquiades <vinicius.melquiades@outlook.com>",
   "license": "MIT",
   "peerDependencies": {
@@ -10,5 +16,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.4"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
 }
